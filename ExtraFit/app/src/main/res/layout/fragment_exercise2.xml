@@ -1,0 +1,141 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haneenalawneh.extrafit.ExerciseFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/exerciseImage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="clip_horizontal"
+            android:layout_weight="6.5"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/pictureCD"
+            fresco:actualImageScaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/timeLayout"
+            android:layout_width="wrap_content"
+
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/timeMargin"
+            android:layout_weight="1.5">
+
+            <TextView
+                android:id="@+id/minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/timeTextSize" />
+
+            <TextView
+                android:id="@+id/Seconds"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/timeTextSize"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/controlersLayout"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="@color/colorPrimary"
+            android:elevation="8dp"
+            android:weightSum="3"
+            tools:targetApi="lollipop">
+
+            <ImageButton
+                android:id="@+id/prev"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="@dimen/controlMargin"
+                android:layout_marginStart="@dimen/controlMargin"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/prev"
+                android:backgroundTint="@color/textColor"
+                android:clickable="true"
+                android:contentDescription="@string/preCD"
+                android:focusable="true"
+                android:onClick="moveToPrevious"
+                android:scaleType="fitCenter"
+                tools:ignore="OnClick"
+                tools:targetApi="lollipop" />
+
+            <ImageButton
+                android:id="@+id/play"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="@dimen/controlMargin"
+                android:layout_marginStart="@dimen/controlMargin"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pause"
+                android:backgroundTint="@color/textColor"
+                android:clickable="true"
+                android:contentDescription="@string/preCD"
+                android:focusable="true"
+                android:scaleType="fitCenter"
+                tools:ignore="OnClick"
+                tools:targetApi="lollipop" />
+
+            <ImageButton
+                android:id="@+id/next"
+
+                style="?android:attr/buttonBarButtonStyle"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="@dimen/controlMargin"
+                android:layout_marginStart="@dimen/controlMargin"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/next"
+                android:backgroundTint="@color/textColor"
+                android:clickable="true"
+                android:contentDescription="@string/nextCD"
+                android:focusable="true"
+                android:onClick="moveToNext"
+                android:scaleType="fitCenter"
+                tools:ignore="OnClick"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundTint="@color/colorPrimary" />
+
+</android.support.design.widget.CoordinatorLayout>

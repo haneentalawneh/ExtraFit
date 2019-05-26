@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Extra Fit</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="pictureCD">Picture of the exercise</string>
+    <string name="nextCD">next  exercise button</string>
+    <string name="preCD">previous  exercise button</string>
+    <string name="playCD">play/pause exercise button</string>
+
+    <string name="defaultTip">Avoid Artificial Trans Fats</string>
+    <string name="tipCD"> Health tip Widget</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="prompt_frist_name">First name </string>
+    <string name="prompt_last_name">Last name </string>
+
+    <string name="action_sign_in_short">SIGN IN</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="action_sign_in">SIGN  UP </string>
+    <string name="sign_up_msg">NEED AN ACCOUNT ?</string>
+    <string name="workoutskey">workouts</string>
+    <string name="network_problem">No internet connection</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="welcoming_msg">Welcome to Extra Fit</string>
+    <string name="workout_txt">WORKOUT</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="done_msg">DONE</string>
+    <string name="welcome"> welcome </string>
+    <string name="to_app"> to Extra Fit </string>
+    <string name="comma"> , </string>
+    <string name="zero">0</string>
+    <string name="colon"> : </string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="sign_up_failed">Sign up failed</string>
+
+
+
+</resources>

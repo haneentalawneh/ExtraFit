@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="controlMargin">90dp</dimen>
+    <dimen name="buttonHeight">46dp</dimen>
+    <dimen name="buttonWidth">300dp</dimen>
+    <dimen name="textSize2">40sp</dimen>
+    <dimen name="textTop2">24dp</dimen>
+    <dimen name="textTop">80dp</dimen>
+    <dimen name="textLeft">40dp</dimen>
+
+    <dimen name="textSize">25sp</dimen>
+    <dimen name="textSize3">18sp</dimen>
+
+    <dimen name="maxWidth">400dp</dimen>
+    <dimen name="logoText">65sp</dimen>
+    <dimen name="e_wdith">150dp</dimen>
+    <dimen name="e_height">150dp</dimen>
+    <dimen name="timeTextSize">50sp</dimen>
+
+</resources>

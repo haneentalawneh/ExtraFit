@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "860114432278",
+    "firebase_url": "https://extrafit-e421b.firebaseio.com",
+    "project_id": "extrafit-e421b",
+    "storage_bucket": "extrafit-e421b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860114432278:android:c37f87ad4efab5b1",
+        "android_client_info": {
+          "package_name": "com.example.haneenalawneh.extrafit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860114432278-m3d7s4bh91iln9nhf6i9qtuk9452slfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.haneenalawneh.extrafit",
+            "certificate_hash": "31a5d382d3abee26e4939037163366dbbecbb7dd"
+          }
+        },
+        {
+          "client_id": "860114432278-g7tg66nl6fkkn80phahgao1u8tv8a76u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIFU6qAxjk9khmkTA6jXq-cdYqGXfkkMc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860114432278-g7tg66nl6fkkn80phahgao1u8tv8a76u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
